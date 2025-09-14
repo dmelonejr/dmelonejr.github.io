@@ -5,7 +5,7 @@
 ### Master's Degree program - Assignment Examples (Testing) 
 
 [GIS-5253-999 Final Project Soil Temperatures at Depth -
-Data Interpolation Fundamentals](/soil_temp.md)
+Data Interpolation Fundamentals](/soil_temp.html)
 <img src="images/MeloneD_Final_Presentation_Slide.png?raw=true"/>
 
 ---
