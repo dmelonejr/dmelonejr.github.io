@@ -5,7 +5,7 @@
 ### Assignment Examples (Testing) 
 
 [GIS-5253-999 Final Project Soil Temperatures at Depth -
-Data Interpolation Fundamentals](/samples)
+Data Interpolation Fundamentals](/soil_temp.md)
 <img src="images/MeloneD_Final_Presentation_Slide.png?raw=true"/>
 
 ---
