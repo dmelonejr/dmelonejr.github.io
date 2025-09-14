@@ -9,8 +9,9 @@ Data Interpolation Fundamentals](/soil_temp.md)
 <img src="images/MeloneD_Final_Presentation_Slide.png?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Final Project: (A lesson in Failure)
+City of New York Metropolitan Transit Authority –
+Subway Major Incidents: 2020-2024](/city_of_ny_mta)
 
 ---
 [Project 3 Title](http://example.com/)
