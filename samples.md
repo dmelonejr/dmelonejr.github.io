@@ -1,4 +1,4 @@
-## This can be your internal website page / project page
+## Soil Temperatures at Depth - Data Interpolation Fundamentals
 
 **Project description:** Information for this project description was generated from the Project Proposal document (memorandum) developed for course GIS-5253-999 taken Summer 2025 while in pursuit of a Geospatial Technologies Master's from the University of Oklahoma.
 
