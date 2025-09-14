@@ -6,7 +6,7 @@
 
 [GIS-5253-999 Final Project Soil Temperatures at Depth -
 Data Interpolation Fundamentals](/sample_page)
-<img src="images/MeloneD_Final_Presentation_Slide.pdf?raw=true"/>
+<img src="images/MeloneD_Final_Presentation_Slide.png?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
