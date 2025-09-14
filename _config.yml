@@ -13,7 +13,7 @@ description: > # your text below (remove <br> elements if you don't need line br
     Major: Geographic Information Science 
     Minor: Surveying and Geomatics Sciences 
   <br><br>
-  <a href="www.linkedin.com/in/donaldmelonejr/" onclick="window.open('www.linkedin.com/in/donaldmelonejr/', '_self');"LinkedIn"</a>
+  <a href="www.linkedin.com/in/donaldmelonejr/" onclick="window.open('www.linkedin.com/in/donaldmelonejr/', '_self');>"LinkedIn"</a>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
