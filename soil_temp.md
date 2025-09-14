@@ -49,3 +49,5 @@ It is logical to assume higher air temperatures statewide potentially indicate i
 Location Map:
 
 <img src="images/Location Map.jpg?raw=true"/>
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
