@@ -46,6 +46,6 @@ It is logical to assume higher air temperatures statewide potentially indicate i
 
 ### 8. Appendix
 
-Location Map
+Location Map:
 
 <img src="images/Location Map.jpg?raw=true"/>
