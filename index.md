@@ -2,17 +2,18 @@
 
 ---
 
-### Assignment Examples (Testing) 
+### Master's Degree program - Assignment Examples (Testing) 
 
 [GIS-5253-999 Final Project Soil Temperatures at Depth -
 Data Interpolation Fundamentals](/soil_temp.md)
 <img src="images/MeloneD_Final_Presentation_Slide.png?raw=true"/>
 
----
 [Final Project: (A lesson in Failure)
 City of New York Metropolitan Transit Authority –
-Subway Major Incidents: 2020-2024](/city_of_ny_mta)
+Subway Major Incidents: 2020-2024](/city_of_ny_mta.md)
 <img src="Picture1.png?raw=true"/>
+---
+
 ---
 [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
