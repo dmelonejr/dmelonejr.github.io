@@ -12,7 +12,7 @@ Data Interpolation Fundamentals](/soil_temp.md)
 [Final Project: (A lesson in Failure)
 City of New York Metropolitan Transit Authority –
 Subway Major Incidents: 2020-2024](/city_of_ny_mta)
-
+<img src="Picture1.png?raw=true"/>
 ---
 [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
