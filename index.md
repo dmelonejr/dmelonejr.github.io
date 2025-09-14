@@ -8,13 +8,16 @@
 Data Interpolation Fundamentals](/soil_temp.md)
 <img src="images/MeloneD_Final_Presentation_Slide.png?raw=true"/>
 
-[Final Project: (A lesson in Failure)
-City of New York Metropolitan Transit Authority –
-Subway Major Incidents: 2020-2024](/city_of_ny_mta.md)
-<img src="Picture1.png?raw=true"/>
 ---
 
-### Category Name 2
+[GIS-5653-999 Final Project: (A lesson in Failure)
+City of New York Metropolitan Transit Authority –
+Subway Major Incidents: 2020-2024](/city_of_ny_mta.md)
+<img src="images/Picture1.png?raw=true"/>
+
+---
+
+### Compressed Category (DRAFT)
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
