@@ -12,9 +12,8 @@ description: > # your text below (remove <br> elements if you don't need line br
     Major: Geographic Information Science 
     Minor: Surveying and Geomatics Sciences 
   <br><br>
-  [Link](www.linkedin.com/in/donaldmelonejr)
-# <a href="www.linkedin.com/in/donaldmelonejr">LinkedIn</a> 
-  [go](www.linkedin.com/in/donaldmelonejr){:target="_blank" rel="noopener"}
+  <a href="www.linkedin.com/in/donaldmelonejr">LinkedIn</a>
+
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
