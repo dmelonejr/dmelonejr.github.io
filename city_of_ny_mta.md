@@ -52,3 +52,5 @@ Potential data sources, broadly speaking, include:
 •	“Data.gov.” Data.gov, 2020, catalog.data.gov/dataset/mta-subway-major-incidents-beginning-2020. Accessed 27 July 2025.
 •	US Census Bureau. “TIGER/Line Shapefiles.” The United States Census Bureau, 6 May 2019, www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html.
 •	“MTA Subway Stations | State of New York.” Data.ny.gov, data.ny.gov/Transportation/MTA-Subway-Stations/39hk-dx4f/about_data
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
