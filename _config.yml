@@ -9,7 +9,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   Master's degree, Geospatial Technology, Uniersity of Oklahoma (2024-current)
   Bachelors of Science: Major: Geographic Information Science Minor: Surveying and Geomatics Sciences (2020-2023)
   <br><br>
-  <a href="www.linkedin.com/in/donaldmelonejr">LinkedIn</a> 
+  [Link](www.linkedin.com/in/donaldmelonejr)
+# <a href="www.linkedin.com/in/donaldmelonejr">LinkedIn</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
