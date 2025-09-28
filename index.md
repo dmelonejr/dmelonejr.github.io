@@ -17,7 +17,7 @@ Subway Major Incidents: 2020-2024](/city_of_ny_mta.md)
 
 ---
 [GIS-5013-999 Project 1: 
-LA County – Park Candidate Parcels](/project_1.md)
+LA County – Park Candidate Parcels](/project_1_.md)
 <img src="images/Layout.jpg?raw=true"/>
 
 ---
