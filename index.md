@@ -24,7 +24,8 @@ LA County – Park Candidate Parcels](/project1a.html)
 
 ### Compressed Category (In Construction)
 
-- [Project 1 Title](http://example.com/)
+- [ArcGIS StoryMap: GIS-5253-999 Final Project Soil Temperatures at Depth -
+Data Interpolation Fundamentals]([http://example.com/](https://storymaps.arcgis.com/stories/0490b4716ce74fffbf43b2cfd46c97f6))
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
