@@ -1,50 +1,71 @@
-## Soil Temperatures at Depth - Data Interpolation Fundamentals
+## Project 1 - Park Candidate Parcels
 
-**Project description:** Information for this project description was generated from the Project Proposal document (memorandum) developed for course GIS-5253-999 taken Summer 2025 while in pursuit of a Geospatial Technologies Master's from the University of Oklahoma.
+**Project description:** Information for this project description was generated from the Project 1 Submittal document developed for course GIS-5013-999 taken Fall 2024 2025 in pursuit of a Geospatial Technologies Master's from the University of Oklahoma.
 
 ### 1. Background
 
-During the Summer GIS-5253-999 GIS Applications course, students were introduced to a variety of lab assignments to enhance their understanding of different types of projects and tools available to them, thereby increasing their knowledge and comprehension of spatial data and various data interpretation techniques. One such lab assignment focused on spatial interpolation. During this lab assignment, students used temperature data to examine variations in analysis techniques for temperatures across the state of Texas.
-Inspired by that lab assignment, this project proposal aims to review soil temperature data collected at the same sites. The overall objective is to utilize current data to lay the groundwork for an analysis process that interprets a variety of natural data. Using the analysis methods described in the mentioned lab assignment, the analyst aims to determine if there is a similar distribution in temperature variation throughout the various soil sample depths versus the interpolated air temperature data. Rainfall data could be included in this dataset at a later time to expand the examination of temperature variation distribution across the study area. To summarize, this exercise aims to apply analysis techniques established throughout the semester, empowering analysts to make the best-informed decisions with available data and identify any similar trends in air and below-surface temperatures in Texas.
+The GIS deliverable for this project should include data relating to a recommendation for the county on potential parcel candidates for purchase. These parcels must meet the following criteria: they must be vacant, within a high population density, and in an area with below-average median income. The deliverable should include a map(s) and a written summary of the parcel IDs, general location attributes (population demographics), and value.
 
-### 2. Method
+### 2. Criteria
 
-1.	Unit of Analysis. Units for this project will remain the same as the input datasets. Temperature data is recorded in degrees Fahrenheit, and soil temperature is measured in degrees Fahrenheit at centimeters below grade. The scope of this project encompasses the entire state of Texas, including all Texas Water Development Board (TWDB) data recording and monitoring stations.
-2.	Data and Sources. Data was compiled from the TexMesonet website for analysis on June 19, 2025. According to the TexMesonet website (https://www.texmesonet.org/About), data is compiled in collaboration with various stakeholders by the Texas Water Development Board (TWDB). Stations are maintained by the National Weather Service (NWS), as well as various regional and local entities. The projected coordinate system for the data and maps shall be WGS 1984 UTM Zone 14N.
-3.	Techniques. The TWDB_Mesonet_Stations point layer from Lab 4 will be utilized to combine the temperature and rainfall data downloaded on June 19th, 2025. After joining the data, the environment shall be set to the state of Texas polygon utilized from the Lab 4 dataset. All data will be joined together using a common identifier. Temperature data will then be analyzed using the Kriging spatial analysis method at the various depths available, and the data will be clipped to the state boundary. The analyst will create multiple maps to display soil temperature trends across the state. Each of these maps will empower the analyst to provide their interpretation of the data at the time of collection.
+<em>The parcel must be vacant</em>: \
+Vector layer "vacant_parcels" can be utilized for this project. This layer can be used to help filter out the other data. Use "Select by Attributes" to filter the data by looking for parcels that match the area criteria greater than or equal to one acre. \
+\
+<em>The parcel must be within walking distance of the LA River</em>: \
+Buffer 0.75 US Survey Miles around the LA River polyline layer. \
+\
+<em>The parcel must be far enough away from existing parks to avoid constructing of redundant parks</em>: \
+Buffer 0.25 US Survey Miles from existing park parcels to reduce redundancy. \
+\
+<em>The parcel must be in an area with high population density</em>: \
+Layer: "block_groups" will provide the necessary data on population density greater than 8,000 people per square mile. Calculate the population density field and filter by the criteria. \
+\
+<em>The parcel must be in an area with a low median income</em>: \
+Layer: "block_groups" will provide the necessary data on median income by looking at "MDHINC_CY." Use this number to filter out the criteria in the analysis. \
+\
+<em>The parcel must be in an area with a high population of children</em>: \
+Layer: "block_groups" will provide the necessary data on children less than or equal to the age of 18 under the data "POP18UP_CY").
 
-### 3. Assumptions
+### 3. A note on LA Counties Census Block Data with "zero" values:
 
-This project assumes that all data available online is current within an acceptable parameter. The purpose of this project is to demonstrate accurate data collection, analysis, and summary. It is assumed that this assignment provides students with the opportunity to learn and grow in their academic possibilities and is not necessarily a reflection of an actual research project or one that any company or municipality is undertaking. It is also assumed that any information derived from this study is no reflection on the data owners or facilitators.
+These census block groups may contain buildings or land uses inconsistent with residential land use types. For example, the entire tract may encompass commercial buildings, stadiums, schools, parks, or other non-residential land use types.
 
-### 4. Limitations
+### 4. Operational Steps:
 
-Every project contains limiting factors – addressing issues that require attention to public data is one such potential pitfall. Any analysis for public use cases will inherently include stumbling blocks. Limitations may include access to data sources, the accuracy of online sources, and the dates of data collection. Limitations for this project also include a shortened timeline and the importance of the initial research project.
+<em>Step 1:</em> \
+Data Organization: I like to get my data organized. As this is unfamiliar data, my method is quite linear. I set up layer groups in the contents pane to act as containers for all the original data and then any output data. I then symbolize the data for legibility. \
+\
+<em>Step 2:</em> \
+After organizing the data and creating containers for my steps, I used a spatial join to combine the "block_groups" layer with the vacant_parcels layer. \
+\
+<em>Step 3:</em> \
+I created new fields and calculated the acres as all the area units are square feet in size.
+(To calculate the population density, the percentage of children, and then thee child population must be calculated through subtraction – take the field for the age over 18 and subtract it from the total population in 2010. This should provide the requisite data. \
+\
+<em>Step 4:</em> \
+\
+Once again, I utilized the Select by Location function from the toolbar to filter down the data to parcels, not within 0.25 miles of existing park polygons. On the menu's bottom is an option to invert the spatial relationship. This enabled the inverse of the relationship "within a distance" of 0.25 miles. \
+\
+<em>Step 5:</em> \
+Each parcel was verified to be located within a census block (BLKGRP). \
+\
+<em>Step 6</em> \
+\
+The final step used the Select by Attributes function to narrow the vacant parcel data down to Greater than or Equal to 1 acre. As this map frame is in feet, I queried the data with the square footage of 43,560 (equal to 1 acre).
 
-### 5. Work Plan
+### 5. Identify the parcels for potential parks: \
 
-1.	Phase I: Identify the project scope and data [05/25]
-  a.	Consider the problem that requires answering
-  b.	Identify study area/limit in scope for success
-  c.	Collect data and aggregate for usage
-2.	Phase II: Analyze compiled data and interpret results [06/25]
-  a.	Import and combine necessary data for analysis
-  b.	Create an air temperature map
-  c.	Create soil temperature maps at the available depths (e.g., 5 cm) using the same analysis methodology.
-3.	Phase III: Deliverables [06/25]
-  a.	Oral presentation of the findings online in a three-minute speech format
-  b.	Create and submit an ArcGIS StoryMap to the best possible standard, given the scope of this course and expectations in an accelerated summer session.
+My analysis method derived four parcels that matched the search criteria. Their numbers are: \
+•	120B161-82 \
+•	210B193-150 \
+•	180B141-895 \
+•	129A217-176 \
 
 ### 6. Conclusion
 
-It is logical to assume higher air temperatures statewide potentially indicate identical results in soil temperature at various depths. The purpose of this exercise is to compare the distribution and interpolation of data across the state, given the results of the in-class lab. It is safe to assume that the analyst understands a variety of soil types exist across the vast geography of any state and may affect the readings. The purpose of this exercise is to determine if there is any difference across the state, given the varying measurement depths. This process may lead to additional testing that includes soil types at a more micro level of analysis, allowing for a more precise interpretation.
+In summary, I used tools I was comfortable with from our lessons during the course to date. I found that with my analysis style, breaking these steps into condensed queries helped put my mind at ease that I was using the correct tools. I believe this approach satisfies the client's analysis requirements. I verified data along the way (looked at a buffer along the river and buffers along park boundaries) to ensure that data satisfied the criteria. Outside of urban planning, this approach (or others with the tools we've learned) can be used to locate pipes in a stormwater network for repair and replacement or provide additional metropolitan planning for transportation infrastructure. This type of analysis can also look at elevation data and soil types to compare existing and proposed conditions from survey and digitized map data.
 
-### 7. Reference
-
-“TexMesonet.” TexMesonet, 2025, www.texmesonet.org/DataProducts/TWDBStations/SoilMoisture. Accessed 19 June 2025.
-“TexMesonet.” TexMesonet, 2025, www.texmesonet.org/About. Accessed 19 June 2025.
-
-### 8. Appendix
+### 7. Appendix
 
 Location Map:
 
