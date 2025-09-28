@@ -12,12 +12,12 @@ Data Interpolation Fundamentals](/soil_temp.html)
 
 [GIS-5653-999 Final Project: (A lesson in Failure)
 City of New York Metropolitan Transit Authority –
-Subway Major Incidents: 2020-2024](/city_of_ny_mta.md)
+Subway Major Incidents: 2020-2024](/city_of_ny_mta.html)
 <img src="images/Picture1.png?raw=true"/>
 
 ---
 [GIS-5013-999 Project 1: 
-LA County – Park Candidate Parcels](/project1a.md)
+LA County – Park Candidate Parcels](/project1a.html)
 <img src="images/Layout.jpg?raw=true"/>
 
 ---
