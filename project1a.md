@@ -48,9 +48,9 @@ These census block groups may contain buildings or land uses inconsistent with r
 
 ### 5. Identify the parcels for potential parks:
 
-• 120B161-82
-• 210B193-150
-• 180B141-895
+• 120B161-82 \
+• 210B193-150 \
+• 180B141-895 \
 • 129A217-176
 
 ### 6. Conclusion
