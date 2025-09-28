@@ -16,19 +16,15 @@ Subway Major Incidents: 2020-2024](/city_of_ny_mta.md)
 <img src="images/Picture1.png?raw=true"/>
 
 ---
-
-### Compressed Category (DRAFT)
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+[GIS-5013-999 Project 1: 
+LA County – Park Candidate Parcels](/project_1.md)
+<img src="images/Layout.jpg?raw=true"/>
 
 ---
 
+### Compressed Category (In Construction)
 
-
+- [Project 1 Title](http://example.com/)
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
