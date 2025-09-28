@@ -35,6 +35,8 @@ These census block groups may contain buildings or land uses inconsistent with r
 <em>Step 1:</em> \
 Data Organization: I like to get my data organized. As this is unfamiliar data, my method is quite linear. I set up layer groups in the contents pane to act as containers for all the original data and then any output data. I then symbolize the data for legibility. \
 \
+<img src="images/Step 1_01.png?raw=true"/>
+\
 <em>Step 2:</em> \
 After organizing the data and creating containers for my steps, I used a spatial join to combine the "block_groups" layer with the vacant_parcels layer. \
 \
@@ -69,6 +71,6 @@ In summary, I used tools I was comfortable with from our lessons during the cour
 
 Location Map:
 
-<img src="images/prj1_Layout.jpg?raw=true"/>
+<img src="images/Layout.jpg?raw=true"/>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
