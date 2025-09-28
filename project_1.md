@@ -69,6 +69,6 @@ In summary, I used tools I was comfortable with from our lessons during the cour
 
 Location Map:
 
-<img src="images/Location Map.jpg?raw=true"/>
+<img src="images/prj1_Layout.jpg?raw=true"/>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
