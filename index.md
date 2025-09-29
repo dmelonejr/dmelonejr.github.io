@@ -2,7 +2,7 @@
 
 ---
 
-### Master's Degree program - Assignment Examples (Testing) 
+### Master's Degree program - Assignment Examples (Week 5 assignment in GEOG-6953-999) 
 
 [GIS-5253-999 Final Project Soil Temperatures at Depth -
 Data Interpolation Fundamentals](/soil_temp.html)
@@ -29,6 +29,7 @@ LA County – Park Candidate Parcels](/project1a.html)
 - [GIS-5003-999 Lab 11 WebApp](https://uok.maps.arcgis.com/apps/instant/basic/index.html?appid=408602d7a9b14dd4a241263fa729e026)
 - [GIS-5003-999 U.S. States Map](https://arcg.is/1DKSH41)
 - [Placeholder for Week 6 GEOG-6953-999 additional map data?]()
+
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
