@@ -28,7 +28,7 @@ LA County – Park Candidate Parcels](/project1a.html)
 - [GIS-5003-999 2024 U.S. Presidential Election Results](https://arcg.is/1Hiu1b3)
 - [GIS-5003-999 Lab 11 WebApp](https://uok.maps.arcgis.com/apps/instant/basic/index.html?appid=408602d7a9b14dd4a241263fa729e026)
 - [GIS-5003-999 U.S. States Map](https://arcg.is/1DKSH41)
-- [Placeholder for Week 6 GEOG-6953-999 additional map data?]()
+- [GEOG-6953-999 Week 7 Remote Sensing App](https://ee-soonerboomermelone.projects.earthengine.app/view/melonegeog6953rs)
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
