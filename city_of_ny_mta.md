@@ -1,6 +1,8 @@
-## Soil Temperatures at Depth - Data Interpolation Fundamentals
+## Final Project: (A lesson in Failure)
+### City of New York Metropolitan Transit Authority – Subway Major Incidents: 2020-2024
 
-**Project description:** Information for this project description was generated from the Project Proposal document (memorandum) developed for course GIS-5253-999 taken Summer 2025 while in pursuit of a Geospatial Technologies Master's from the University of Oklahoma.
+
+**Project description:** Information for this project description was generated from the Project Proposal document (memorandum) developed for course GIS-5653-999 taken Summer 2025 while in pursuit of a Geospatial Technologies Master's from the University of Oklahoma.
 
 ### 1. Background
 
